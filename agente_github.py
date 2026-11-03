@@ -151,13 +151,13 @@ atualizar_readme_perfil()
 
 # 2. Cria o arquivo LICENSE (MIT) no repositório escolhido
 # (Troque 'SEU_REPOSITORIO' pelo nome exato de um repositório seu)
-criar_ficheiro_licenca("Agente-GITHUB")
+criar_ficheiro_licenca("nome-do-repositorio")
 
 # 3. Gera um README profissional para o seu repositório
 gerar_readme_projeto(
-    nome_repo="Agente-GITHUB",
-    titulo_projeto="Agente GitHub",
-    descricao="Agente para personalizar o seu repositório ou perfil no GitHub.",
-    tecnologias=["Python"],
+    nome_repo="nome-do-repositorio",
+    titulo_projeto="título-do-seu-projeto",
+    descricao="descrição-do-seu-projeto",
+    tecnologias=["ex: Javascript, HTML5, CSS3, Python"],
     instrucoes_execucao="npm install\nnpm start"
 )
